@@ -1,0 +1,60 @@
+body{
+    font-family: 'Heebo', sans-serif;
+    margin: 0%;
+}
+.light{
+    color: coral;
+}
+.half-width{
+    width: 35%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.button{
+    text-decoration: none;
+    background-color: rgb(233, 141, 108);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.top{
+    background-image: url(developer-portfolio/top-banner.png);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.bottom{
+    background-image: url(developer-portfolio/dream-bg.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+h3{
+    color: coral;
+}
+.single{
+    box-shadow: 10px 10px 30px gray;
+    height: 70%;
+}
+.fot{
+    background-image: url(developer-portfolio/exp-bg.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg, coral, rgb(241, 184, 163));
+    border-image-slice: 1;
+   
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
